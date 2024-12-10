@@ -5,8 +5,7 @@
 
 [ZenFS](https://github.com/zen-fs/core) backend for `iso` files.
 
-> [!IMPORTANT]
-> Please read the ZenFS core documentation!
+Please read the ZenFS core documentation!
 
 ## Backend
 
@@ -21,11 +20,6 @@ npm install @zenfs/iso
 ```
 
 ## Usage
-
-> [!NOTE]
-> The examples are written in ESM.  
-> For CJS, you can `require` the package.  
-> If using a browser environment, you can use a `<script>` with `type=module` (you may need to use import maps)
 
 ```js
 import { configure, fs } from '@zenfs/core';
